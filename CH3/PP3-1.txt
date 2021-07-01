@@ -1,0 +1,11 @@
+
+0x100   # register
+0xAB    # absolute
+0x108   # immediate
+0xFF    # indirect
+0xAB    # base + register
+0x11    # base + register_a + register_b
+0x13    # base + register_a + register_b
+0xFF    # base + register_a + register_b * scale
+0x11    # base + register_a + register_b * scale
+
