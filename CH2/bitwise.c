@@ -1,0 +1,10 @@
+
+#include <stdio.h>
+
+int main(void) {
+
+    printf("0x%08X\n", 0x87654321 & 0xFF);
+    printf("0x%08X\n", 0x87654321 ^ ~0xFF);
+    printf("0x%08X\n", 0x87654321 | 0xFF);
+
+}
